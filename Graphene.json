@@ -232,8 +232,8 @@
     "backgroundColor": "#fbfbfb"
   },
   "editor": {
-    "codeCellTheme": "xcode",
-    "markdownCellTheme": "xcode"
+    "codeCellTheme": "tomorrow_night_eighties",
+    "markdownCellTheme": "tomorrow_night_eighties"
   },
   "css": {
     "className": "graphene",
