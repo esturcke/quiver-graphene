@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+SOURCE=theme.json
+FINAL=Graphene.json
+
+EDITOR_CSS=$(node-sass --output-style=compressed editor.scss)
+PREVIEW_CSS=$(node-sass --output-style=compressed preview.scss)
+PRESENTATION_CSS=$(node-sass --output-style=compressed presenation.scss)
+
+echo $EDITOR_CSS
+
+sed \
+    -e "s/\${editor-css}/$EDITOR_CSS/" \
+    -e "s/\${preview-css}/$PREVIEW_CSS/" \
+    -e "s/\${presenation-css}/$PRESENATION_CSS/" \
+    $SOURCE > $FINAL

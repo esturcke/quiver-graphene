@@ -1,0 +1,89 @@
+body {
+  font-family : 'Fira Sans';
+  max-width   : 700px;
+  margin      : 0 auto;
+  padding     : 20px;
+}
+
+.graphene {
+  color : #545454;
+}
+
+.graphene a {
+  color : #de4751;
+}
+
+.graphene table {
+  width : 100%;
+}
+
+.graphene table tr {
+  background-color : #fbfbfb;
+}
+
+.graphene table tr:nth-child(odd) {
+  background-color : #efefef;
+}
+
+.graphene table th {
+  background : #fbfbfb;
+}
+
+.graphene table td, .graphene table th {
+  border-color : #dedede;
+}
+
+.graphene blockquote {
+  color        : #333;
+  border-color : #de4751;
+}
+
+.graphene hr {
+  background-color : #dedede;
+}
+
+.graphene code {
+  font-size : 16px;
+  padding   : 3px 6px;
+}
+
+.graphene .text-cell, .graphene .diagram-cell, .graphene .markdown-cell {
+  font-size   : 18px;
+  line-height : 1.6;
+  font-family : 'Fira Sans';
+}
+
+.graphene .code-cell, .graphene .latex-cell {
+  font-size   : 16px;
+  line-height : 1.6;
+}
+
+.graphene .markdown-cell .ace_line {
+  font-size : 16px;
+}
+
+.graphene #tag-field {
+  margin : 0;
+}
+
+.graphene #tag-field .tag {
+  background : #fbfbfb;
+  border     : none;
+  color      : #a0a0a0;
+}
+
+.graphene #titlearea {
+  border : none;
+}
+
+.graphene *+h1, .graphene *+h2 {
+  margin-top : 52px;
+}
+
+.graphene *+h3, .graphene *+h4 {
+  margin-top : 39px;
+}
+
+.graphene *+h5, .graphene *+h6 {
+  margin-top : 26px;
+}
