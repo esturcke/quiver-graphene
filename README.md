@@ -1,4 +1,4 @@
-# Quiver App Graphene Theme
+# Graphene Theme for Quiver App
 
 This is a theme file for Quiver <http://happenapps.com/#quiver>.
 
