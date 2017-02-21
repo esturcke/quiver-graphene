@@ -7,63 +7,80 @@ body {
 
 .graphene {
   color : #545454;
-}
 
-.graphene a {
-  color : #de4751;
-}
+  a {
+    color : #de4751;
+  }
 
-.graphene blockquote {
-  color : #333;
-}
+  blockquote {
+    color : #333;
+  }
 
-.graphene hr {
-  background-color : #dedede;
-}
+  hr {
+    background-color : #dedede;
+  }
 
-.graphene .cell.inEditMode {
-  border-color : #dedede;
-}
+  .cell.inEditMode {
+    border-color : #dedede;
+  }
 
-.graphene .text-cell table,  .graphene .text-cell table th,  .graphene .text-cell table td {
-  border : 1px solid #dedede !important;
-}
+  .text-cell {
+    font-size        : 18px;
+    line-height      : 1.6;
+    font-family      : 'Fira Sans';
+    background-color : #fbfbfb;
+  
+    table,
+    table th,
+    table td {
+      border : 1px solid #dedede !important;
+    }
+  }
 
-.graphene .text-cell {
-  font-size        : 18px;
-  line-height      : 1.6;
-  font-family      : 'Fira Sans';
-  background-color : #fbfbfb;
-}
+  .code-cell .editor,
+  .markdown-cell .ace_editor,
+  .latex-cell .editor {
+    font-size   : 16px;
+    line-height : 1.6;
+  }
 
-.graphene .code-cell .editor, .graphene .markdown-cell .ace_editor, .graphene .latex-cell .editor {
-  font-size   : 16px;
-  line-height : 1.6;
-}
+  .markdown-cell {
+    .ace_markup.ace_heading.ace_1,
+    .ace_markup.ace_heading.ace_2,
+    .ace_markup.ace_heading.ace_3,
+    .ace_markup.ace_heading.ace_4,
+    .ace_markup.ace_heading.ace_5,
+    .ace_markup.ace_heading.ace_6 {
+      color : #de4751 !important;
+    }
 
-.graphene .markdown-cell .ace_markup.ace_heading.ace_1, .graphene .markdown-cell .ace_markup.ace_heading.ace_2, .graphene .markdown-cell .ace_markup.ace_heading.ace_3, .graphene .markdown-cell .ace_markup.ace_heading.ace_4, .graphene .markdown-cell .ace_markup.ace_heading.ace_5, .graphene .markdown-cell .ace_markup.ace_heading.ace_6 {
-  color : #de4751 !important;
-}
+    .ace_heading,
+    .ace_string.ace_strong {
+      color       : #333 !important;
+      font-weight : bold;
+    }
 
-.graphene .markdown-cell .ace_heading, .graphene .markdown-cell .ace_string.ace_strong {
-  color       : #333 !important;
-  font-weight : bold;
-}
+    .ace_line,
+    .ace_support.ace_function,
+    .ace_string.ace_emphasis,
+    .ace_list,
+    .ace_string.ace_blockquote,
+    .ace_constant.ace_language.ace_escape {
+      color : #545454 !important;
+    }
+  }
+  
+  #tag-field {
+    margin : 0;
 
-.graphene .markdown-cell .ace_line, .graphene .markdown-cell .ace_support.ace_function, .graphene .markdown-cell .ace_string.ace_emphasis, .graphene .markdown-cell .ace_list, .graphene .markdown-cell .ace_string.ace_blockquote, .graphene .markdown-cell .ace_constant.ace_language.ace_escape {
-  color : #545454 !important;
-}
-
-.graphene #tag-field {
-  margin : 0;
-}
-
-.graphene #tag-field .tag {
-  background : #fbfbfb;
-  border     : none;
-  color      : #a0a0a0;
-}
-
-.graphene #titlearea {
-  border : none;
+    .tag {
+      background : #fbfbfb;
+      border     : none;
+      color      : #a0a0a0;
+    }
+  }
+  
+  #titlearea {
+    border : none;
+  }
 }
