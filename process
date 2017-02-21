@@ -5,9 +5,7 @@ FINAL=Graphene.json
 
 EDITOR_CSS=$(node-sass --output-style=compressed editor.scss)
 PREVIEW_CSS=$(node-sass --output-style=compressed preview.scss)
-PRESENTATION_CSS=$(node-sass --output-style=compressed presenation.scss)
-
-echo $EDITOR_CSS
+PRESENTATION_CSS=$(node-sass --output-style=compressed presentation.scss)
 
 sed \
     -e "s/\${editor-css}/$EDITOR_CSS/" \
