@@ -1,12 +1,13 @@
-body {
+@import "colors";
+
+.graphene {
   font-family : 'Fira Sans';
+  font-size   : 12px;
   max-width   : 700px;
   margin      : 0 auto;
   padding     : 20px;
-}
-
-.graphene {
-  color : #545454;
+  background  : $background-color;
+  color       : $type-color;
 
   a {
     color : #de4751;
@@ -25,7 +26,6 @@ body {
   }
 
   .text-cell {
-    font-size        : 18px;
     line-height      : 1.6;
     font-family      : 'Fira Sans';
     background-color : #fbfbfb;
@@ -40,8 +40,8 @@ body {
   .code-cell .editor,
   .markdown-cell .ace_editor,
   .latex-cell .editor {
-    font-size   : 16px;
     line-height : 1.6;
+    background : $background-color;
   }
 
   .markdown-cell {
