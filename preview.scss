@@ -1,12 +1,8 @@
-body {
-  font-family : 'Fira Sans';
-  max-width   : 700px;
-  margin      : 0 auto;
-  padding     : 20px;
-}
+@import "colors";
+@import "common";
 
 .graphene {
-  color : #545454;
+  @extend .common;
 
   a {
     color : #de4751;
@@ -32,33 +28,23 @@ body {
     }
   }
   
-  blockquote {
-    color        : #333;
-    border-color : #de4751;
-  }
-  
   hr {
     background-color : #dedede;
   }
   
   code {
-    font-size : 16px;
     padding   : 3px 6px;
   }
   
   .text-cell, .diagram-cell, .markdown-cell {
-    font-size   : 18px;
     line-height : 1.6;
-    font-family : 'Fira Sans';
   }
   
   .code-cell, .latex-cell {
-    font-size   : 16px;
     line-height : 1.6;
   }
   
   .markdown-cell .ace_line {
-    font-size : 16px;
   }
   
   #tag-field {

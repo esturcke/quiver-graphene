@@ -1,20 +1,13 @@
 @import "colors";
+@import "common";
 
 .graphene {
-  font-family : 'Fira Sans';
-  font-size   : 12px;
-  max-width   : 700px;
+  @extend .common;
   margin      : 0 auto;
   padding     : 20px;
-  background  : $background-color;
-  color       : $type-color;
 
   a {
     color : #de4751;
-  }
-
-  blockquote {
-    color : #333;
   }
 
   hr {
@@ -26,7 +19,6 @@
   }
 
   .text-cell {
-    line-height      : 1.6;
     font-family      : 'Fira Sans';
     background-color : #fbfbfb;
   
@@ -78,9 +70,5 @@
       border     : none;
       color      : #a0a0a0;
     }
-  }
-  
-  #titlearea {
-    border : none;
   }
 }

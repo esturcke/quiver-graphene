@@ -1,0 +1,25 @@
+@import "colors";
+
+.common {
+  font-family : 'Fira Sans';
+  font-size   : 12px;
+  line-height : 1.4;
+  max-width   : 700px;
+  background  : $background-color;
+  color       : $type-color;
+  margin      : 0 auto;
+  padding     : 2rem;
+
+  #titlearea {
+    font-size      : 1.2em;
+    font-weight    : bold;
+    padding        : 0;
+    padding-bottom : 1rem;
+  }
+
+  blockquote {
+    color        : #333;
+    border-color : #de4751;
+  }
+  
+}
